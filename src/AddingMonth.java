@@ -13,6 +13,7 @@ public class AddingMonth {
 		                        + now.get(Calendar.DATE)
 		                        + "-"
 		                        + now.get(Calendar.YEAR));
+		    System.out.println("test");
 		    
 		    //add months to current date using Calendar.add method
 		    now.add(Calendar.MONTH,10);
